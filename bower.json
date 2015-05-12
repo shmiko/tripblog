@@ -1,0 +1,19 @@
+{
+  "name": "tripblog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shmiko/jobfindgo",
+  "authors": [
+    "Paul Jones <shmiko@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
