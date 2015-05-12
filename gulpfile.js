@@ -1,13 +1,21 @@
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
 
-gulp.task('default', function(){
-    gulp.src('app/index.html')
+var paths = {
+    temp: 'temp',
+    index: 'app/index.html'
+}
+
+gulp.task('default',['tempSetup', 'serve']);
+
+gulp.task('tempSetup', function(){
+    gulp.src(paths.index)
     .pipe(gulp.dest('temp'));
-    
-    gulp.src('temp')
+})
+
+gulp.task('serve', function(){
+    gulp.src(paths.temp)
     .pipe(webserver({
         open: true
-        //directoryListing: true
     }));
-});
+})
