@@ -21,7 +21,7 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: '4c50b66ad518001ed0cc576c476b0b56',
+  secret: '23baf69f730b0dcce0c7a0d472c9258d',
 
 
   /***************************************************************************
@@ -33,7 +33,7 @@ module.exports.session = {
 
   // cookie: {
   //   maxAge: 24 * 60 * 60 * 1000
-  // },
+  // }
 
   /***************************************************************************
   *                                                                          *
@@ -56,8 +56,8 @@ module.exports.session = {
   // port: 6379,
   // ttl: <redis session TTL in seconds>,
   // db: 0,
-  // pass: <redis auth password>,
-  // prefix: 'sess:',
+  // pass: <redis auth password>
+  // prefix: 'sess:'
 
 
   /***************************************************************************

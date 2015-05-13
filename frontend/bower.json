@@ -1,12 +1,8 @@
 {
-  "name": "tripblog",
+  "name": "frontend",
   "version": "0.0.0",
-  "homepage": "https://github.com/shmiko/jobfindgo",
   "authors": [
-    "Paul Jones <shmiko@gmail.com>"
-  ],
-  "moduleType": [
-    "node"
+    "Alex <alexzanfir@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
@@ -15,5 +11,16 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "~1.3.6",
+    "satellizer": "~0.8.7",
+    "angular-bootstrap": "~0.12.0",
+    "angular-ui-router": "~0.2.13",
+    "angular-toastr": "~0.5.2",
+    "angular-animate": "~1.3.6"
+  },
+  "resolutions": {
+    "angular": "1.3.6"
+  }
 }

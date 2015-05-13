@@ -26,7 +26,18 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+   '*': false,
+	
+	UserController: {
+		login: true
+	},	
+	PostController: {
+		tweet: ['jwtAuth'],
+		myPosts: ['jwtAuth'],
+		findOne: ['jwtAuth', 'ownResource'],
+		update: ['jwtAuth', 'ownResource'],
+		destroy: ['jwtAuth', 'ownResource']
+	}
 
   /***************************************************************************
   *                                                                          *
