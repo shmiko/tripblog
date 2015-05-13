@@ -36,6 +36,7 @@
   "author": "pauljones",
   "license": "",
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "main-bower-files": "^2.7.1"
   }
 }
